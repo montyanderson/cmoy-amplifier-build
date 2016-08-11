@@ -24,28 +24,6 @@ Assuming you have resistors already, you need:
 * OPA2132PA or OPA2134PA
 * 2x 0.1uF Capacitor
 
-### OpAmp
-
-<table>
-	<tr>
-		<td><img src="http://uk.farnell.com/productimages/standard/en_GB/42268235.jpg">
-		</td>
-		<td><a href="http://uk.farnell.com/texas-instruments/opa2134pa/op-amp-dual-audio-fet-i-p-2134/dp/1097574?ost=opa2134pa&selectedCategoryId=&categoryNameResp=All%2BCategories&searchView=table&iscrfnonsku=false">TEXAS INSTRUMENTS  OPA2134PA.  Audio Power Amplifier, 2 Channel, ± 2.5V to ± 18V, DIP, 8 Pins</a>
-		</td>
-		<td>£2.47</td>
-	</tr>
-</table>
-
-### 0.1uF Signal Capacitor (x2)
-
-<table>
-	<tr>
-		<td><img src="http://uk.farnell.com/productimages/standard/en_GB/1005948-40.jpg"></td>
-		<td><a href="http://uk.farnell.com/wima/mks2d031001a00kssd/cap-film-pet-100nf-100v-rad/dp/1006031">WIMA  MKS2D031001A00KSSD  Film Capacitor, MKS2 Series, 0.1 µF, ± 10%, PET (Polyester), 100 V</a></td>
-		<td>£0.26</td>
-	</tr>
-</table>
-
 ### 220uF Power Supply Capacitor (x2)
 
 <!---<table>
@@ -69,3 +47,29 @@ Note that this is a **680uF cap, not a 220uF**. The higher capacitance (680uF vs
 The ['tweaks' part of the wiki](https://tangentsoft.net/audio/cmoy/tweaks.html), says:
 
 > The caps’ values will change the way the amp performs. For the power caps, 220 µF is adequate, but bigger ones will provide a bigger current reserve, which can be useful in handling high instantaneous loads, like big drum hits. I’ve tried 470 µF caps in my CMoy amps before, and it does improve the bass handling significantly and they’re not all that much bigger than 220s.
+
+### OpAmp
+
+<table>
+	<tr>
+		<td><img src="http://uk.farnell.com/productimages/standard/en_GB/42268235.jpg">
+		</td>
+		<td><a href="http://uk.farnell.com/texas-instruments/opa2134pa/op-amp-dual-audio-fet-i-p-2134/dp/1097574?ost=opa2134pa&selectedCategoryId=&categoryNameResp=All%2BCategories&searchView=table&iscrfnonsku=false">TEXAS INSTRUMENTS  OPA2134PA.  Audio Power Amplifier, 2 Channel, ± 2.5V to ± 18V, DIP, 8 Pins</a>
+		</td>
+		<td>£2.47</td>
+	</tr>
+</table>
+
+### 0.1uF Signal Capacitor (x2)
+
+<table>
+	<tr>
+		<td><img src="http://uk.farnell.com/productimages/standard/en_GB/1005948-40.jpg"></td>
+		<td><a href="http://uk.farnell.com/wima/mks2d031001a00kssd/cap-film-pet-100nf-100v-rad/dp/1006031">WIMA  MKS2D031001A00KSSD  Film Capacitor, MKS2 Series, 0.1 µF, ± 10%, PET (Polyester), 100 V</a></td>
+		<td>£0.26</td>
+	</tr>
+</table>
+
+I've kept this value the same, the wiki quotes:
+
+> As for the input caps (C2), a larger cap will improve bass handling, but it’s by a different mechanism than with larger power caps. See the companion article, Input Capacitors for Headphone Amps for a full discussion. Bottom line, the default 0.1 µF is a bit on the low side. Try 0.22 µF, 0.47 µF, or even 1.0 µF instead.
