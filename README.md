@@ -15,3 +15,41 @@ They neatly state:
 [![Schematic](./schematic.png)](https://tangentsoft.net/audio/cmoy/misc/cmoy-tangent-sch.pdf)
 
 ## Parts
+
+Assuming you have resistors already, you need:
+
+* 2 9v batteries or an isolated 18v power source
+* 2x 220uF Capacitors
+* 10k Logarithmic pot
+* OPA2132PA or OPA2134PA
+* 2x 0.1uF Capacitor
+
+### OpAmp
+
+<table>
+	<tr>
+		<td>![](http://uk.farnell.com/productimages/standard/en_GB/42268235.jpg)</td>
+		<td>[TEXAS INSTRUMENTS  OPA2134PA.  Audio Power Amplifier, 2 Channel, ± 2.5V to ± 18V, DIP, 8 Pins](http://uk.farnell.com/texas-instruments/opa2134pa/op-amp-dual-audio-fet-i-p-2134/dp/1097574?ost=opa2134pa&selectedCategoryId=&categoryNameResp=All%2BCategories&searchView=table&iscrfnonsku=false)</td>
+		<td>£2.47</td>
+	</tr>
+</table>
+
+### 0.1uF Signal Capacitor (x2)
+
+<table>
+	<tr>
+		<td>![](http://uk.farnell.com/productimages/standard/en_GB/1005948-40.jpg)</td>
+		<td>[WIMA  MKS2D031001A00KSSD  Film Capacitor, MKS2 Series, 0.1 µF, ± 10%, PET (Polyester), 100 V](http://uk.farnell.com/wima/mks2d031001a00kssd/cap-film-pet-100nf-100v-rad/dp/1006031)</td>
+		<td>£0.26</td>
+	</tr>
+</table>
+
+### 220uF Power Supply Capacitor (x2)
+
+<table>
+	<tr>
+		<td>![](http://uk.farnell.com/productimages/standard/en_GB/1848467-40.jpg)</td>
+		<td>[PANASONIC ELECTRONIC COMPONENTS  EEU-FM1E221  Electrolytic Capacitor, FM Series, 220 µF, ± 20%, 25 V, 8 mm, Radial Leaded](http://uk.farnell.com/panasonic-electronic-components/eeufm1e221/cap-alu-elec-220uf-25v-rad/dp/1219468)</td>
+		<td>£0.39</td>
+	</tr>
+</table>
