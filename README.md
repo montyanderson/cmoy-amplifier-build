@@ -48,10 +48,24 @@ Assuming you have resistors already, you need:
 
 ### 220uF Power Supply Capacitor (x2)
 
-<table>
+<!---<table>
 	<tr>
 		<td><img src="http://uk.farnell.com/productimages/standard/en_GB/1848467-40.jpg"></td>
 		<td><a href="http://uk.farnell.com/panasonic-electronic-components/eeufm1e221/cap-alu-elec-220uf-25v-rad/dp/1219468">PANASONIC ELECTRONIC COMPONENTS  EEU-FM1E221  Electrolytic Capacitor, FM Series, 220 µF, ± 20%, 25 V, 8 mm, Radial Leaded</a></td>
 		<td>£0.39</td>
 	</tr>
+</table>-->
+
+<table>
+	<tr>
+		<td><img src="http://uk.farnell.com/productimages/standard/en_GB/1848467-40.jpg"></td>
+		<td><a href="http://uk.farnell.com/panasonic-electronic-components/eeufr1e681b/cap-alu-elec-680uf-25v-rad/dp/1800652">PANASONIC ELECTRONIC COMPONENTS  EEUFR1E681B  Electrolytic Capacitor, FR Series, 680 µF, ± 20%, 25 V, 10 mm, Radial Leaded</a></td>
+		<td>£0.35</td>
+	</tr>
 </table>
+
+Note that this is a **680uF cap, not a 220uF**. The higher capacitance (680uF vs 220uF) should allow for better bass handling, apparently.
+
+The ['tweaks' part of the wiki](https://tangentsoft.net/audio/cmoy/tweaks.html), says:
+
+> The caps’ values will change the way the amp performs. For the power caps, 220 µF is adequate, but bigger ones will provide a bigger current reserve, which can be useful in handling high instantaneous loads, like big drum hits. I’ve tried 470 µF caps in my CMoy amps before, and it does improve the bass handling significantly and they’re not all that much bigger than 220s.
